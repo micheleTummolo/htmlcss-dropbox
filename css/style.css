@@ -32,6 +32,10 @@
         padding: 3px 8px;
     }
 
+    .center-container{
+        margin: 0 auto;
+    }
+
 /* Classi ridondanti*/
 
 
@@ -59,4 +63,57 @@
         margin-left: 10px;
     }
 /* Navbar*/
+
+/* Jumbotron*/
+    .jumbotron{
+        margin-top: 50px;
+        width: 100%;
+        background-color: #B4D0E7;
+        padding-top: 50px;
+    }
+
+    .main-container{
+        width: 60%;
+    }
+
+    .jumbotron-title{
+        font-size: 53px;
+        font-weight: 800;
+        line-height: 1.2;
+    }
+
+    .jumbotron-title-container{
+        margin-bottom: 30px;
+    }
+
+    .col-sm-jumbotron{
+        width: 32%;
+    }
+
+    .col-sm-jumbotron p{
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+
+    .jumbotron-button{
+        margin-bottom: 25px;
+        font-size: 13px;
+    }
+
+    .jumbo-img-container{
+        width: 68%;
+        position: relative;
+    }
+
+    .jumbo-img{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .down-arrow{
+        margin-bottom: 10px;
+    }
+/* Jumbotron*/
 
