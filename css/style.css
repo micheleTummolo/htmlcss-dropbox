@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Classi di servizio*/
+
+    .border-blu{
+        border: 1px solid blue;
+    }    
+
+/* Classi di servizio*/
+
+/* Classi ridondanti*/
+    .flex{
+        display: flex;
+    }
+
+    .list{
+        list-style-type: none;
+    }
+
+    .a{
+        text-decoration: none;
+    }
+
+    .button{
+        color: white;
+        background-color: #2E7DFF;
+        padding: 3px 8px;
+    }
+
+/* Classi ridondanti*/
+
+
+/* Navbar*/
+    nav{
+        height: 50px;
+        padding: 15px;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        font-size: 13px;
+    }
+
+    .logo-small{
+        width: 100px;
+    }
+
+    li{
+        margin-left: 30px;
+    }
+
+    .button-container{
+        margin-left: 10px;
+    }
+/* Navbar*/
+
