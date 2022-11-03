@@ -32,6 +32,13 @@
         padding: 3px 8px;
     }
 
+    .button-trasparent{
+        color: black;
+        background-color: transparent;
+        padding: 3px 8px;
+        border: 1px solid black;
+    }
+
     .center-container{
         margin: 0 auto;
     }
@@ -238,3 +245,26 @@
         font-size: 11px;
     }
 /* First section*/
+
+/* Second section*/
+    .img-container{
+        width: 60%;
+    }
+    
+    .txt-container{
+        width: 35%;
+        padding-top: 30px;
+    }
+
+    .txt-container h3, p{
+        margin-bottom: 20px;
+    }
+
+    .txt-container p, a{
+        font-size: 11px;
+    }
+
+    .img-container img{
+        width: 100%;
+    }
+/* Second section*/
