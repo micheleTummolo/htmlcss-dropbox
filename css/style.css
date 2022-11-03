@@ -36,6 +36,19 @@
         margin: 0 auto;
     }
 
+    .row{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .color-grey{
+        color: grey;
+    }
+
+    .align-center{
+        align-items: center;
+    }
+
 /* Classi ridondanti*/
 
 
@@ -49,13 +62,15 @@
         left: 0;
         right: 0;
         font-size: 13px;
+        background-color: white;
+        z-index: 1;
     }
 
     .logo-small{
         width: 100px;
     }
 
-    li{
+    .flex.list li{
         margin-left: 30px;
     }
 
@@ -117,3 +132,94 @@
     }
 /* Jumbotron*/
 
+/* First section*/
+    .container{
+        margin-top: 90px;
+    }
+
+    .md-title{
+        font-size: 28px;
+    }
+
+    .radio-title{
+        font-size: 12px;
+        margin: 0px 32px 0px 12px;
+    }
+
+    .radio-container{
+        margin-top: 20px;
+    }
+
+    .col-sm{
+        width: 30%;
+        border: 1px solid #D8D8DA;
+    }
+
+    .plans-container{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        justify-content: space-between;
+    }
+
+    .customer{
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        border-bottom: 1px solid #D8D8DA;
+        padding: 4px;
+    }
+
+    .customer h4{
+        margin-left: 5px;
+    }
+
+    .plan-description-container, .highlights-container{
+        padding: 15px;
+    }
+
+    .plan-description-container h5{
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .plan-description-container h3{
+        margin-bottom: 10px;
+    }
+
+    .costo{
+        margin-bottom: 20px;
+    }
+
+    .list li{
+        margin: 0px 0px 15px 0px;
+        font-size: 11px;
+    }
+
+    li i{
+        margin-right: 5px;
+    }
+
+    .specs{
+        margin-bottom: 20px;
+    }
+
+    .plans-button{
+        font-size: 11px;
+        margin-bottom: 20px;
+    }
+
+    .col-sm hr{
+        width: 20%;
+        border: 0.1px solid #D8D8DA;
+        background-color: #D8D8DA;
+        margin-left: 15px;
+    }
+
+    .highlights-container h5{
+        margin-bottom: 15px;
+    }
+
+    .check-blu{
+        color: #538FFF;
+    }
+/* First section*/
