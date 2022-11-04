@@ -56,6 +56,10 @@
         align-items: center;
     }
 
+    .justify-center{
+        justify-content: center;
+    }
+
     .space-between{
         justify-content: space-between;
     }
@@ -66,6 +70,13 @@
 
     .paragraph-11px{
         font-size: 11px;
+    }
+
+    hr{
+        width: 20%;
+        border: 0.1px solid #D8D8DA;
+        background-color: #D8D8DA;
+        margin-left: 15px;
     }
 
 /* Classi ridondanti*/
@@ -227,13 +238,6 @@
         margin-bottom: 20px;
     }
 
-    .col-sm hr{
-        width: 20%;
-        border: 0.1px solid #D8D8DA;
-        background-color: #D8D8DA;
-        margin-left: 15px;
-    }
-
     .highlights-container h5{
         margin-bottom: 15px;
     }
@@ -320,9 +324,27 @@
         height: 50%;
     }
 
+    .sq-img{
+        width: 55%;
+        filter: invert(1);
+    }
+
+    .bg-sq-img{
+        width: 55%;
+    }
+
+    .bg-sq-padding{
+        padding: 30px;
+    }
+    
+    .big-square hr{
+        margin: 30px 0px;
+    }
+
     /* Squares colors*/
         .color-sq1{
             background-color: #A2D39B;
+            border: 10px solid #D1E9CD;
         }
 
         .color-sq2{
