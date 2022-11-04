@@ -5,14 +5,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Classi di servizio*/
-
-    .border-blu{
-        border: 1px solid blue;
-    }    
-
-/* Classi di servizio*/
-
 /* Classi ridondanti*/
     .flex{
         display: flex;
@@ -28,8 +20,16 @@
 
     .button{
         color: white;
+        border: 1px solid #2E7DFF;
         background-color: #2E7DFF;
-        padding: 3px 8px;
+        padding: 5px 15px;
+    }
+
+    .button:hover{
+        color: #2E7DFF;
+        background-color: white;
+        border: 1px solid #2E7DFF;
+        padding: 5px 15px;
     }
 
     .button-trasparent{
@@ -39,9 +39,22 @@
         border: 1px solid black;
     }
 
+    .button-trasparent:hover{
+        color: white;
+        background-color: black;
+        padding: 3px 8px;
+        border: 1px solid black;
+    }
+
     .button-white{
         color: black;
         background-color: white;
+        padding: 3px 8px;
+    }
+
+    .button-white:hover{
+        color: white;
+        background-color: grey;
         padding: 3px 8px;
     }
 
@@ -110,14 +123,19 @@
         margin-left: 30px;
     }
 
+    .flex.list li:hover{
+        text-decoration-line: underline;
+        cursor: pointer;
+    }
+
     .button-container{
-        margin-left: 10px;
+        margin-left: 30px;
     }
 /* Navbar*/
 
 /* Jumbotron*/
     .jumbotron{
-        margin-top: 50px;
+        margin-top: 23px;
         width: 100%;
         background-color: #B4D0E7;
         padding-top: 50px;
@@ -165,6 +183,14 @@
 
     .down-arrow{
         margin-bottom: 10px;
+    }
+
+    .arrow-down{
+        color: black ;
+    }
+
+    .arrow-down:hover{
+        color: #2E7DFF;
     }
 /* Jumbotron*/
 
@@ -226,7 +252,7 @@
         margin-bottom: 20px;
     }
 
-    .list li{
+    .plans-container li{
         margin: 0px 0px 15px 0px;
         font-size: 11px;
     }
@@ -261,6 +287,10 @@
         width: 70%;
         padding: 0px 0px 15px 15px;
         font-size: 11px;
+    }
+
+    .margin-top-5px{
+        margin-top: 5px;
     }
 /* First section*/
 
@@ -437,13 +467,18 @@
     .footer-col-bg{
         color: white;
     }
+    
+    .menu-container{
+        width: 18%;
+    }
 
     .menu-container h4{
           margin-bottom: 20px;
     }
 
     .menu-container ul{
-          line-height: 1;
+          line-height: 2;
+          font-size: 11px;
     }
 
     .language-col hr{
@@ -455,6 +490,11 @@
     .language h5{
         color: grey;
         margin: 0px 10px;
+    }
+
+    .menu-container li:hover{
+        text-decoration-line: underline;
+        cursor: pointer;
     }
 /*Footer*/
 
