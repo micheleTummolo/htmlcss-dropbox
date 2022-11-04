@@ -22,14 +22,14 @@
         color: white;
         border: 1px solid #2E7DFF;
         background-color: #2E7DFF;
-        padding: 5px 15px;
+        padding: 5px 13px;
     }
 
     .button:hover{
         color: #2E7DFF;
         background-color: white;
         border: 1px solid #2E7DFF;
-        padding: 5px 15px;
+        padding: 5px 13px;
     }
 
     .button-trasparent{
