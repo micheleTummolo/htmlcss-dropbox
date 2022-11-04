@@ -386,39 +386,75 @@
 /* Squares section*/
 
 /* Sixth section*/
-        .col-md-s6{
-            width: 60%;
-        }
+    .col-md-s6{
+        width: 60%;
+    }
 
-        .col-md-s6 h2{
-            color: #61082B;
-        }
+    .col-md-s6 h2{
+       color: #61082B;
+    }
 
-        .bk-color-blue{
-            background-color: #B4D0E7;
-        }
+    .bk-color-blue{
+        background-color: #B4D0E7;
+    }
 
-        .container-s6{
-            padding: 80px 0px;
-        }
+    .container-s6{
+        padding: 80px 0px;
+    }
 /* Sixth section*/
 
 /* Questions section*/
-        .divisor{
-            margin: 20px 0px;
-            width: 100%;
-        }
+    .divisor{
+        margin: 20px 0px;
+        width: 100%;
+    }
 
-        .arrow-icon{
-            margin-right: 20px;
-            cursor: pointer;
-        }
+    .arrow-icon{
+        margin-right: 20px;
+        cursor: pointer;
+    }
 
-        .question-container h5{
-            font-size: 12px;
-        }
+    .question-container h5{
+        font-size: 12px;
+    }
 
-        .margin-bottom{
-            margin-bottom: 90px;
-        }
+    .margin-bottom{
+        margin-bottom: 90px;
+    }
 /* Questions section*/
+
+/*Footer*/
+    footer{
+        background-color: black;
+        padding: 50px 0px;
+    }
+
+    .footer-row{
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    .footer-col-bg{
+        color: white;
+    }
+
+    .menu-container h4{
+          margin-bottom: 20px;
+    }
+
+    .menu-container ul{
+          line-height: 1;
+    }
+
+    .language-col hr{
+        margin: 0;
+        margin: 60px 0px 30px;
+        color: white;
+    }
+
+    .language h5{
+        color: grey;
+        margin: 0px 10px;
+    }
+/*Footer*/
+
