@@ -387,7 +387,7 @@
 
 /* Sixth section*/
         .col-md-s6{
-            width: 50%;
+            width: 60%;
         }
 
         .col-md-s6 h2{
@@ -402,3 +402,23 @@
             padding: 80px 0px;
         }
 /* Sixth section*/
+
+/* Questions section*/
+        .divisor{
+            margin: 20px 0px;
+            width: 100%;
+        }
+
+        .arrow-icon{
+            margin-right: 20px;
+            cursor: pointer;
+        }
+
+        .question-container h5{
+            font-size: 12px;
+        }
+
+        .margin-bottom{
+            margin-bottom: 90px;
+        }
+/* Questions section*/
