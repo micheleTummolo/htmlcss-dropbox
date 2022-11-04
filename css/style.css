@@ -39,6 +39,12 @@
         border: 1px solid black;
     }
 
+    .button-white{
+        color: black;
+        background-color: white;
+        padding: 3px 8px;
+    }
+
     .center-container{
         margin: 0 auto;
     }
@@ -378,3 +384,21 @@
 
 
 /* Squares section*/
+
+/* Sixth section*/
+        .col-md-s6{
+            width: 50%;
+        }
+
+        .col-md-s6 h2{
+            color: #61082B;
+        }
+
+        .bk-color-blue{
+            background-color: #B4D0E7;
+        }
+
+        .container-s6{
+            padding: 80px 0px;
+        }
+/* Sixth section*/
